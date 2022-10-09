@@ -3,5 +3,7 @@
     "name": "Базовые вопросы",
     "description": "Вне зависимости от выбора, это увлекательная игра для всех.",
     "lang": "ru",
-    "questions": ""
+    "target-age": 12,
+    "questions": "https://raw.githubusercontent.com/lavaFrai/TrueOrAction/main/data/questions.json",
+    "tasks": "https://raw.githubusercontent.com/lavaFrai/TrueOrAction/main/data/tasks.json"
 }
