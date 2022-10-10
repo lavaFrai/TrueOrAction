@@ -1,3 +1,7 @@
 {
-    "parent": "https://github.com/lavaFrai/TrueOrAction/blob/main/info.json"
+    "parent": "https://github.com/lavaFrai/TrueOrAction/blob/main/info.json",
+    "type": "tasks",
+    "tasks": [
+        
+    ]
 }

@@ -1,3 +1,28 @@
 {
-    "parent": "https://github.com/lavaFrai/TrueOrAction/blob/main/info.json"
+    "parent": "https://github.com/lavaFrai/TrueOrAction/blob/main/info.json",
+    "type": "questions",
+    "questions": [
+        {
+            "target": "any",
+            "text_male": "Во сколько лет ты пошел в школу?",
+            "text_female": "Во сколько лет ты пошла в школу?",
+            "requirements": []
+        },
+        {
+            "target": "any",
+            "text_male": "Хотел бы ты учиться с $another_sex_name в одном классе?",
+            "text_female": "Хотела бы ты учиться с $another_sex_name в одном классе?",
+            "requirements": ["another_sex_in_game"]
+        },
+        {
+            "target": "male",
+            "text": "Как ты относишься к $same_sex_name",
+            "requirements": ["same_sex_in_game"]
+        },
+        {
+            "target": "female",
+            "text": "Хотела бы ты встречаться с $boy_name?",
+            "requirements": ["boys_in_game"]
+        }
+    ]
 }
